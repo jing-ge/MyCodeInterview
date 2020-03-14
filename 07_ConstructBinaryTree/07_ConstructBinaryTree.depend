@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1584154978 source:d:\offer\07_constructbinarytree\main.cpp
+	<iostream>
+	<exception>
+	<cstdio>
+	"../lib/BinaryTree.h"
+
+1520241807 d:\offer\lib\tree.h
+	<vector>
+
+1584152351 source:d:\offer\lib\tree.cpp
+	"Tree.h"
+	<cstdio>
+
+1520241807 source:d:\offer\lib\binarytree.cpp
+	<cstdio>
+	"BinaryTree.h"
+
+1520241807 d:\offer\lib\binarytree.h
+
