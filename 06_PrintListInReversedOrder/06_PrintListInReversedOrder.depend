@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1584069553 source:d:\offer\06_printlistinreversedorder\main.cpp
+	<iostream>
+	"list.h"
+	<stack>
+
+1520241807 source:d:\offer\lib\list.cpp
+	"list.h"
+	<stdio.h>
+	<stdlib.h>
+
+1520241807 d:\offer\lib\list.h
+

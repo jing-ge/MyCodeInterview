@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1583659845 source:d:\offer\03_arraysize\test.cpp
+	<iostream>
+
+1583659684 source:d:\offer\03_arraysize\main.cpp
+	<iostream>
+	<cstdio>
+
