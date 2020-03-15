@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1584278159 source:d:\offer\09_queuewithtwostacks\main.cpp
+	<iostream>
+	"Queue.h"
+
+1584278850 d:\offer\09_queuewithtwostacks\queue.h
+	<stack>
+	<exception>
+	<queue>
+
