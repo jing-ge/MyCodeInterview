@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1584326629 source:d:\offer\10_fibonacci\main.cpp
+	<iostream>
+	<cstdio>
+	<cassert>
+
