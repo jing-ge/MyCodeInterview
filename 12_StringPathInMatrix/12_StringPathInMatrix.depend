@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1584695569 source:d:\offer\12_stringpathinmatrix\main.cpp
+	<iostream>
+	<string>
+	<vector>
+	<cstdio>
+	<string>
+	<stack>
+	<cstring>
+
