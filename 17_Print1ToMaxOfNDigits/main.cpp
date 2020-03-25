@@ -107,7 +107,7 @@ void PrintNumber(char* number)
             printf("%c",number[i]);
         }
     }
-    printf("\n");
+    printf("\t");
 }
 
 // ====================≤‚ ‘¥˙¬Î====================
@@ -115,8 +115,8 @@ void Test(int n)
 {
     printf("Test for %d begins:\n", n);
 
-    Print1ToMaxOfNDigits_1(n);
-//    Print1ToMaxOfNDigits_2(n);
+//    Print1ToMaxOfNDigits_1(n);
+    Print1ToMaxOfNDigits_2(n);
 
     printf("\nTest for %d ends.\n", n);
 }
