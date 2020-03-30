@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1520241807 source:d:\offer\lib\list.cpp
+	"list.h"
+	<stdio.h>
+	<stdlib.h>
+
+1520241807 d:\offer\lib\list.h
+
+1585452834 source:d:\offer\23_entrynodeinlistloop\main.cpp
+	<iostream>
+	<cstdio>
+	<../lib/List.h>
+
