@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1520241807 source:d:\offer\lib\binarytree.cpp
+	<cstdio>
+	"BinaryTree.h"
+
+1520241807 d:\offer\lib\binarytree.h
+
+1586227442 source:d:\offer\32_03_printtreesinzigzag\main.cpp
+	<iostream>
+	<cstdio>
+	<../lib/BinaryTree.h>
+	<stack>
+
