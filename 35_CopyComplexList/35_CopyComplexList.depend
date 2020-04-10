@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1520241807 source:d:\offer\35_copycomplexlist\complexlist.cpp
+	<cstdio>
+	"ComplexList.h"
+
+1520241807 d:\offer\35_copycomplexlist\complexlist.h
+
+1586502869 source:d:\offer\35_copycomplexlist\main.cpp
+	<iostream>
+	<cstdio>
+	<map>
+	<ComplexList.h>
+
