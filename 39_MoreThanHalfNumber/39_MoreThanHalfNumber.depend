@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1586825597 source:d:\offer\39_morethanhalfnumber\main.cpp
+	<iostream>
+	<cstdio>
+	<../lib/Array.h>
+
+1586825654 source:d:\offer\lib\array.cpp
+	<stdlib.h>
+	"Array.h"
+	<exception>
+
+1520241807 d:\offer\lib\array.h
+
