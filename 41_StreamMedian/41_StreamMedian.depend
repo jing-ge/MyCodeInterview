@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1586999721 source:d:\offer\41_streammedian\main.cpp
+	<iostream>
+	<cstdio>
+	<algorithm>
+	<vector>
+	<functional>
+
