@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1587348174 source:d:\offer\44_digitsinsequence\main.cpp
+	<iostream>
+	<algorithm>
+	<math.h>
+	<string>
+
