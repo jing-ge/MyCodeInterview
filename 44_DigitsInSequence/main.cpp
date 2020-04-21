@@ -11,6 +11,20 @@ int countOfIntegers(int digits);
 int digitAtIndex(int index, int digits);
 int beginNumber(int digits);
 
+int digitAtIndex2(int indx) {
+    int n = indx;
+    if(n<10)return n;
+    int base = 1;
+    while(n>9*pow(10,base-1)*base){
+        n-=9*pow(10,base-1)*base;
+        base++;
+    }
+    int res = pow(10,base-1)+n/base;
+    int mod = n%base;
+    if(mod==0)return (res-1)%10;
+    else return res/(int)pow(10,base-mod);
+}
+
 int digitAtIndex(int index)
 {
 	if(index<0)return -1;
@@ -56,7 +70,7 @@ int beginNumber(int digit)
 // ====================测试代码====================
 void test(const char* testName, int inputIndex, int expectedOutput)
 {
-	if(digitAtIndex(inputIndex) == expectedOutput)
+	if(digitAtIndex2(inputIndex) == expectedOutput)
 		cout << testName << " passed." << endl;
 	else
 		cout << testName << " FAILED." << endl;
@@ -65,8 +79,6 @@ void test(const char* testName, int inputIndex, int expectedOutput)
 
 int main()
 {
-    cout<<countOfIntegers(8)<<endl;
-    cout<<digitAtIndex(800000000)<<endl;
 	test("Test1", 0, 0);
 	test("Test2", 1, 1);
 	test("Test3", 9, 9);
@@ -76,7 +88,6 @@ int main()
 	test("Test7", 1000, 3); // 数字370的第一位，3
 	test("Test8", 1001, 7); // 数字370的第二位，7
 	test("Test9", 1002, 0); // 数字370的第三位，0
-    cout<<digitAtIndex(800000000);
 
 	return 0;
 }
