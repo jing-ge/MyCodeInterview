@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1587690701 source:d:\offer\48_longestsubstringwithoutdup\main.cpp
+	<iostream>
+	<string>
+	<iostream>
+	<map>
+	<vector>
+
