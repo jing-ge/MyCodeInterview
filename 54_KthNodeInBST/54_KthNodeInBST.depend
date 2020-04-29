@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1588123542 source:d:\offer\lib\binarytree.cpp
+	<cstdio>
+	"BinaryTree.h"
+
+1520241807 d:\offer\lib\binarytree.h
+
+1588125487 source:d:\offer\54_kthnodeinbst\main.cpp
+	<iostream>
+	<cstdio>
+	"../lib/BinaryTree.h"
+
