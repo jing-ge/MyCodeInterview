@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1588471376 source:d:\offer\59_02_queuewithmax\main.cpp
+	<iostream>
+	<cstdio>
+	<deque>
+	<vector>
+	<exception>
+
