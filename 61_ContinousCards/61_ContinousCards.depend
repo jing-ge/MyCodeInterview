@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1588851947 source:d:\offer\61_continouscards\main.cpp
+	<cstdio>
+	<cstdlib>
+	<iostream>
+

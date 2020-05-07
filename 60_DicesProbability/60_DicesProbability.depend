@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1588845915 source:d:\offer\60_dicesprobability\main.cpp
+	<iostream>
+	<vector>
+	<string.h>
+	<math.h>
+
