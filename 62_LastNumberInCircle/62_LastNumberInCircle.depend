@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1588901270 source:d:\offer\62_lastnumberincircle\main.cpp
+	<iostream>
+	<cstdio>
+	<list>
+
